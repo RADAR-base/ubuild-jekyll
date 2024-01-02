@@ -29,8 +29,8 @@ h3 {
 h3,
 p {
  font-size:16px;
- font-size:1rem;
- line-height:1.35
+ font-size:2rem;
+ line-height:1.5
 }
 p {
  font-weight:400;
@@ -145,6 +145,7 @@ input.inverted::placeholder {
 .block-header-1--logo img {
  max-height:24px;
  max-height:1.5rem
+ margin-right:16px;
 }
 .block-header-1 .nav-item {
  display:inline-block;

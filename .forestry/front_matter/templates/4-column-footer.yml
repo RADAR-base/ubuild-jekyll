@@ -6,7 +6,7 @@ fields:
   hidden: true
   label: block
   name: block
-  default: footer-2
+  default: footer-2-b
 - type: file
   label: Column 1 Image
   name: image

@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="">
   <head>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168437992-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-168437992-1');
+	</script>
+
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,6 +22,9 @@
     <meta name="description" content="{{ site.description }}">
     {% if page.title %}
     <style>
+    html {
+      scroll-behavior: smooth;
+    }
       * {
  box-sizing:border-box;
  margin:0;
@@ -64,12 +79,15 @@ p {
  margin:0 auto
 }
 .block {
- padding:64px 32px;
+ /*padding:64px 32px;
+ padding:4rem 2rem*/
+ padding:15px 32px;
  padding:4rem 2rem
 }
 @media screen and (min-width:700px) {
  .block {
-  padding:6rem 4rem
+  /*padding:6rem 4rem*/
+  padding:3rem 4rem
  }
 }
 .button {
@@ -156,7 +174,11 @@ input.inverted::placeholder {
 }
 .block-header-1--logo img {
  max-height:24px;
- max-height:1.5rem
+ max-height:1.5rem;
+ margin-right:10px;
+}
+block-header-1--logo div {
+ margin-right:10px;
 }
 .block-header-1 .nav-item {
  display:inline-block;
@@ -263,7 +285,7 @@ input.inverted::placeholder {
 }
 @media screen and (min-width:700px) {
  .block-hero-1 {
-  min-height:500px
+  min-height:300px
  }
 }
 .block-hero-2 {
@@ -833,6 +855,8 @@ body{font-size:16px;}
 }
     </style>
     {% endif %}
+
+<link rel="shortcut icon" type="image/png" href="favicon.png">
 
   </head>
   <body>
